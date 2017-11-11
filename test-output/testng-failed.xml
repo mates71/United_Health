@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="zipcode" value="22102"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.uhc.com"/>
+    <classes>
+      <class name="com.uhc.tests.TestForOnePerson">
+        <methods>
+          <include name="setUp"/>
+          <include name="step4" invocation-numbers="0"/>
+          <include name="step8"/>
+        </methods>
+      </class> <!-- com.uhc.tests.TestForOnePerson -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

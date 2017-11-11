@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.uhc.tests.TestForOnePerson">
+        <methods>
+          <include name="step3"/>
+          <include name="step2"/>
+          <include name="step1"/>
+          <include name="step7"/>
+          <include name="step6"/>
+          <include name="step5"/>
+          <include name="step4"/>
+          <include name="step9"/>
+          <include name="step8"/>
+          <include name="setUp"/>
+          <include name="highlightAreaWithJavascript"/>
+          <include name="highlightAreaWithJavascript"/>
+          <include name="highlightAreaWithJavascript"/>
+        </methods>
+      </class> <!-- com.uhc.tests.TestForOnePerson -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
